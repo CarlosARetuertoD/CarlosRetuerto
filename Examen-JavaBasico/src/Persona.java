@@ -12,7 +12,7 @@ public class Persona {
 		this.nombres = "No Figura";
 		this.apellidos = "No Figura";
 		this.tipo_documento = -1;
-		this.documento_identidad = "No Figura";
+		this.documento_identidad = "No Figuras";
 		this.edad = -1;
 		this.sexo = -1;
 	}
