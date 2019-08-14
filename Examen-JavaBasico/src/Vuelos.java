@@ -87,8 +87,8 @@ public class Vuelos {
 		piloto.Imprimir();
 		System.out.println("Co-Piloto: " + copiloto.getApellidos()+ " " + copiloto.getNombres());
 		System.out.println("Avion : " + avion.getNumero_serie() + "Aerolinea : " + avion.getAerolinea());
-		System.out.println("Origen: "+ origen.getUbicacion());
-		System.out.println("Destino: " + destino.getUbicacion());
+		System.out.println("Origen: "+ origen.getUbicacion()+" - " + origen.getNombre());
+		System.out.println("Destino: " + destino.getUbicacion()+" - " + destino.getNombre());
 		
 		ImprimirPasajeros();
 	}
