@@ -7,7 +7,7 @@ public class Avion {
 	private int millas_recorridas;
 	
 	public Avion() {
-		this.numero_serie = "No Figura";
+		this.numero_serie = "No tiene numero de serie";
 		this.aerolinea = "No Figura";
 		this.capacidad = -1;
 		this.millas_recorridas = 0;
